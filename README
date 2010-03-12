@@ -1,0 +1,14 @@
+Dragonfly Development jQuery Namespace Add-on
+http://github.com/dflydev/jquery-ddNamespace
+
+
+This add-on gives jQuery users the ability to manipulate global namespaces.
+In the most simple case, it can be used like this:
+
+    $.namespace('dflydev.example.util');
+    dflydev.example.util.demo = function() { ... }
+
+
+Very much inspired by the following sources:
+http://stackoverflow.com/questions/527089/is-it-possible-to-create-a-namespace-in-jquery
+http://www.zachleat.com/web/2007/08/28/namespacing-outside-of-the-yahoo-namespace/
