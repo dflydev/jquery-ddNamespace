@@ -3,7 +3,7 @@ http://github.com/dflydev/jquery-ddNamespace
 
 
 This add-on gives jQuery users the ability to manipulate global namespaces.
-In the most simple case, it can be used like this:
+In the most simple case, it can be used to create a namespace like this:
 
     $.namespace('dflydev.example.util');
     dflydev.example.util.demo = function() { ... }
